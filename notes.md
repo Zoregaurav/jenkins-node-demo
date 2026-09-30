@@ -1,6 +1,8 @@
 # Automating Workflow with Jenkins:
 
 
+# how to setup jenkins on server...
+
 Jenkins--->Demo
 
 
@@ -20,6 +22,7 @@ Jenkins--->Demo
        Deploy
          |
 
+*Linting = automated code-quality gate before code progresses through the pipeline.*
 
 macbook-->Souce Code(SpringBoot/nodeJs)
 ubuntu(linux)-->server
@@ -38,18 +41,19 @@ computer
 
 
 
-
 # Architecture:
                       node
 
-                      Agent  multiple-Executors ->Workspaces
+                   -    Agent -> multiple-Executors ->Workspaces
   job
-  ---> controller      Agent   
+  ---> controller  -    Agent   
          node      
-                      Agent
+                   -    Agent
 
                
      [  Linux server ]
+
+
 
 
  

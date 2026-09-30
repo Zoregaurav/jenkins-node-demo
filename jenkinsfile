@@ -9,14 +9,14 @@ pipeline {
     options {
         skipDefaultCheckout(true)
         timestamps()
-        disableConcurrentBuilds()
+        disableConcurrentBuilds() 
     }
 
     stages {
 
         stage('Checkout') {
             steps {
-                checkout scm
+                checkout scm 
             }
         }
 
